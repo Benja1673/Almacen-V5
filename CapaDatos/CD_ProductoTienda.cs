@@ -63,8 +63,8 @@ namespace CapaDatos
                                 Nombre = dr["NombreTienda"].ToString(),
                                 Direccion = dr["DireccionTienda"].ToString(),
                             },
-                            PrecioUnidadCompra = Convert.ToDecimal(dr["PrecioUnidadCompra"].ToString(), new CultureInfo("es-PE")),
-                            PrecioUnidadVenta = Convert.ToDecimal(dr["PrecioUnidadVenta"].ToString(), new CultureInfo("es-PE")),
+                            PrecioUnidadCompra = Convert.ToDecimal(dr["PrecioUnidadCompra"].ToString(), new CultureInfo("es-CL")),
+                            PrecioUnidadVenta = Convert.ToDecimal(dr["PrecioUnidadVenta"].ToString(), new CultureInfo("es-CL")),
                             Stock = Convert.ToInt32(dr["Stock"].ToString()),
                             Iniciado = Convert.ToBoolean(dr["Iniciado"].ToString())
                         });
